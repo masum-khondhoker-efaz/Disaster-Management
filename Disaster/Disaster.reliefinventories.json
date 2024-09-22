@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "66ecec833d8a86ab750d9b3b"
+  },
+  "itemName": "Puffed Rice",
+  "quantity": 100,
+  "unit": "kg",
+  "status": "Available",
+  "receivedDate": {
+    "$date": "2024-09-20T03:31:15.669Z"
+  },
+  "createdAt": {
+    "$date": "2024-09-20T03:31:15.671Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-20T03:31:15.671Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66eced763d8a86ab750d9b42"
+  },
+  "itemName": " flattened rice",
+  "quantity": 50,
+  "unit": "kg",
+  "status": "Available",
+  "receivedDate": {
+    "$date": "2024-09-20T03:35:18.934Z"
+  },
+  "createdAt": {
+    "$date": "2024-09-20T03:35:18.934Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-20T03:35:18.934Z"
+  }
+}]

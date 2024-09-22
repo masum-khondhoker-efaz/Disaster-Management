@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "66ec499d9d320297eb9baf32"
+  },
+  "title": "Disaster Relief Distribution",
+  "description": "Organize and oversee the distribution of relief supplies in the affected areas.",
+  "location": "Dhaka",
+  "crisis": {
+    "$oid": "66ebeff2c1c6e7f3839d903a"
+  },
+  "requiredVolunteers": "5",
+  "assignedVolunteers": [
+    {
+      "$oid": "66ebb36ca97c01aeff3044cd"
+    },
+    {
+      "$oid": "66ec0eded3eabfedcdf841c1"
+    }
+  ],
+  "createdBy": {
+    "$oid": "66ebb2631a265fd9b083c83e"
+  },
+  "status": "Open",
+  "createdAt": {
+    "$date": "2024-09-19T15:56:13.014Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-19T16:08:15.623Z"
+  }
+}]

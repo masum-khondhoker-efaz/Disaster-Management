@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "66ecf005309c64017e04553a"
+  },
+  "itemName": "Water Bottles",
+  "quantity": 200,
+  "unit": "liters",
+  "cost": "3000",
+  "purchasedBy": {
+    "$oid": "66ebb2631a265fd9b083c83e"
+  },
+  "status": "In Stock",
+  "purchaseDate": {
+    "$date": "2024-09-20T03:46:13.851Z"
+  },
+  "createdAt": {
+    "$date": "2024-09-20T03:46:13.853Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-20T03:46:13.853Z"
+  }
+}]

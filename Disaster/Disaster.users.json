@@ -1,0 +1,89 @@
+[{
+  "_id": {
+    "$oid": "66ebb2631a265fd9b083c83e"
+  },
+  "name": "Admin",
+  "email": "admin@example.com",
+  "password": "1234",
+  "role": "admin"
+},
+{
+  "_id": {
+    "$oid": "66ebb36ca97c01aeff3044cd"
+  },
+  "name": "Efaz",
+  "email": "efazkh@gmail.com",
+  "password": "1234",
+  "role": "volunteer",
+  "createdAt": {
+    "$date": "2024-09-19T05:15:24.170Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-19T16:08:15.892Z"
+  },
+  "status": "verified"
+},
+{
+  "_id": {
+    "$oid": "66ec0eded3eabfedcdf841c1"
+  },
+  "name": "Abc",
+  "email": "efazkh12@gmail.com",
+  "password": "1234",
+  "role": "volunteer",
+  "status": "verified",
+  "createdAt": {
+    "$date": "2024-09-19T11:45:34.631Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-19T16:08:15.892Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66efe52d0d61ba40d3b013c3"
+  },
+  "name": "faruk",
+  "email": "faruk@gmail.com",
+  "password": "1234",
+  "role": "volunteer",
+  "status": "verified",
+  "createdAt": {
+    "$date": "2024-09-22T09:36:45.725Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-22T09:37:29.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66efe58aff732706445874d5"
+  },
+  "name": "faruk",
+  "email": "faruk1@gmail.com",
+  "password": "1234",
+  "role": "volunteer",
+  "status": "pending",
+  "createdAt": {
+    "$date": "2024-09-22T09:36:45.725Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-22T09:37:29.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66efe593ff732706445874d6"
+  },
+  "name": "faruk",
+  "email": "faruk12@gmail.com",
+  "password": "1234",
+  "role": "volunteer",
+  "status": "pending",
+  "createdAt": {
+    "$date": "2024-09-22T09:36:45.725Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-22T09:37:29.178Z"
+  }
+}]
