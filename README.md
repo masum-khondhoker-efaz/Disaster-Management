@@ -9,7 +9,7 @@ Crisis Reporting: Allows users to report crises which can be approved by admins.
 Crisis List & Filter: Displays a list of approved crises with filters for severity, status, and location.
 Donations Management: Manages donations and expenses for disaster relief.
 Inventory Management: (Optional) Track inventory for donated and purchased relief goods.
-Admin Panel: Admins can approve, verify, and assign tasks to volunteers.
+Admin Panel: Admins can approve, verify, and assign tasks to volunteers
 
 Installation & Setup
 Prerequisites
