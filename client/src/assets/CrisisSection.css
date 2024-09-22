@@ -1,0 +1,49 @@
+.crisis-section {
+    text-align: center;
+}
+
+.crisis-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 20px; /* Space between items */
+    margin: 20px 100px; /* Margin around the grid */
+}
+
+.crisis-card {
+    background-color: #d6e2f0;
+    border-radius: 5px;
+    width: 70%;
+   margin-left: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.crisis-image {
+    width: 100px; /* Image width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between image and details */
+}
+
+.crisis-details {
+    text-align: left; /* Align text to the left */
+}
+
+.button-container {
+    margin-top: 20px; /* Space above the button */
+    text-align: center; /* Center the button */
+}
+
+.button {
+    display: inline-block;
+    background-color: #001F3F;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #3A6D8C;
+}

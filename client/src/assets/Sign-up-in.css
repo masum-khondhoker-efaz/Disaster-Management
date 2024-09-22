@@ -1,0 +1,41 @@
+/* Common styles for input fields and buttons */
+.input-field, .login-button, .register-button {
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 2px solid #3A6D8C; /* Secondary border color */
+    border-radius: 5px;
+    width: calc(100% - 24px); /* Full width with padding adjustment */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+/* Button specific styles */
+.login-button, .register-button {
+    background-color: #001F3F; /* Primary color */
+    color: #ddd;
+    border: none;
+    cursor: pointer;
+}
+
+.login-button:hover, .register-button:hover {
+    background-color: #3A6D8C; /* Secondary hover color */
+}
+
+/* Additional styles for login container */
+.login-container, .register-container {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #ddd; /* Secondary background color */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-heading, .register-heading {
+    color: #001F3F; /* Primary color */
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* No need to duplicate input and button styles */

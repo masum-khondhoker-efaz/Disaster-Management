@@ -1,0 +1,51 @@
+.admin-reports-section {
+    margin: 0 150px;
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+.admin-reports-section h2 {
+    color: #001f3f;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.reports-list {
+    list-style: none;
+    padding: 0;
+}
+
+.report-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #eef5ff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.report-item span {
+    font-size: 1.2rem;
+    color: #001f3f;
+}
+
+.report-item .btn {
+    padding: 0.5rem 1rem;
+    background-color: #3a6d8c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.report-item .btn:disabled {
+    background-color: #6a9ab0;
+}
+
+.error {
+    color: red;
+    margin-bottom: 1rem;
+    text-align: center;
+}

@@ -1,0 +1,45 @@
+.donation-page-container {
+    padding: 60px;
+}
+
+.donation-overview {
+    margin-bottom: 20px;
+}
+
+.donation-form-section {
+    margin: 30px 400px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.donation-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.donation-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.donation-form button {
+    background-color: #001F3F;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.donation-form button:hover {
+    background-color: #3A6D8C;
+}
+
+.donation-message {
+    margin-top: 10px;
+    color: green; /* Change as needed for success/failure messages */
+}

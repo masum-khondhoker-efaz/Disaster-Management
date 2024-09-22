@@ -1,0 +1,38 @@
+.crisis-item {
+    margin: 0 150px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.crisis-item h3 {
+    margin: 0 0 10px;
+}
+
+.crisis-actions {
+    margin-top: 10px;
+}
+
+.approve-button, .reject-button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.approve-button {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.reject-button {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+}

@@ -1,0 +1,139 @@
+/* General crisis page styling */
+.crisis-page-container {
+    padding: 40px 20px; /* Increased padding for better spacing */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Filter section */
+.filter-section {
+    margin-bottom: 30px; /* Added more space under the filter section */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.filter-section label {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.filter-section select {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px; /* Added border radius for smoother appearance */
+    border: 1px solid #ccc;
+}
+
+/* Crisis list section */
+.crisis-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px; /* Increased gap for better spacing */
+}
+
+.crisis-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Increased shadow for better depth */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.crisis-card:hover {
+    transform: scale(1.05); /* Added hover effect for interaction */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.crisis-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px; /* Increased margin under the image */
+}
+
+.crisis-card h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px; /* Added margin for spacing */
+}
+
+.crisis-card p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.crisis-card strong {
+    color: #333;
+}
+
+/* Crisis form section */
+.crisis-form-container {
+    margin: 60px auto;
+    background-color: #fff;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 600px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Increased shadow for better effect */
+}
+
+.crisis-form-container h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 30px; /* Increased bottom margin for spacing */
+    text-align: center;
+}
+
+.crisis-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Increased gap between input fields */
+}
+
+.crisis-form input,
+.crisis-form textarea,
+.crisis-form select {
+    padding: 12px; /* Increased padding for input fields */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px; /* Increased border-radius for smoother look */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.crisis-form textarea {
+    height: 120px; /* Increased textarea height */
+    resize: none;
+}
+
+.crisis-form button {
+    padding: 12px;
+    background-color: #001F3F;
+    color: white;
+    font-size: 18px; /* Increased button font size */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.crisis-form button:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px); /* Button hover effect */
+}
+
+.submit-message {
+    margin-top: 25px; /* Increased space for the submit message */
+    color: green;
+    text-align: center;
+    font-weight: bold;
+}

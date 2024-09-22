@@ -1,0 +1,91 @@
+/* Home page styles */
+.homepage-container {
+    margin: 30px;
+}
+
+.fund-section {
+    padding: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); /* 12-column grid */
+    gap: 20px;
+    height: 60vh; /* Take full viewport height */
+    align-items: center; /* Vertically center items */
+}
+
+.fund-details,
+.chart-container {
+    margin-left: 30px;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.fund-details {
+    grid-column: span 5; /* Take 5 out of 12 columns */
+}
+
+.chart-container {
+    grid-column: span 7; /* Take 7 out of 12 columns */
+}
+
+.section-header {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #001F3F;
+}
+
+.button {
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #001F3F;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #3A6D8C;
+}
+
+.crisis-section {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.crisis-section h2 {
+    margin-bottom: 10px;
+}
+
+.crisis-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.crisis-section ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #001F3F;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #3A6D8C;
+}
