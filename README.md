@@ -21,7 +21,7 @@ URL for published Postman documentation
 https://documenter.getpostman.com/view/36263256/2sAXqtc2Be
 
 Clone the repository:
-git clone https://github.commasum-khondhoker-efaz/Disaster-Management.git
+git clone https://github.commasum-khondhoker-efaz/Disaster-Management
 cd disaster-management/server
 
 Install dependencies:
