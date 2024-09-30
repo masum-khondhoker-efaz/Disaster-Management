@@ -58,40 +58,33 @@ app.use('/api', router);
 app.use('/api', CrisisRoutes);
 app.use('/api/reports', reportRoutes);
 
-app.use('/uploads',express.static('uploads'));
-
-app.get('/uploads/:image', (req, res) => {
-    res.sendFile(__dirname + req.params.image);
-})
-//app.use('/uploads', express.static(path.join(process.cwd(), 'app/uploads')));
-
 // Static file serving with compression
-// app.get('/uploads/:image', (req, res) => {
-//     const imagePath = path.join(process.cwd(), 'app/uploads', req.params.image);
-//
-//     // Dynamically set the Content-Type based on the file extension
-//     const ext = path.extname(req.params.image).toLowerCase();
-//     let contentType = 'image/jpeg'; // default to jpeg
-//
-//     if (ext === '.png') {
-//         contentType = 'image/png';
-//     } else if (ext === '.gif') {
-//         contentType = 'image/gif';
-//     }
-//
-//     const options = {
-//         root: path.join(process.cwd(), 'app/uploads'),
-//         headers: {
-//             'Content-Type': contentType,
-//         }
-//     };
-//
-//     res.sendFile(req.params.image, options, (err) => {
-//         if (err) {
-//             res.status(err.status).end();
-//         }
-//     });
-// });
+app.get('/uploads/:image', (req, res) => {
+    const imagePath = path.join(process.cwd(), 'app/uploads', req.params.image);
+
+    // Dynamically set the Content-Type based on the file extension
+    const ext = path.extname(req.params.image).toLowerCase();
+    let contentType = 'image/jpeg'; // default to jpeg
+
+    if (ext === '.png') {
+        contentType = 'image/png';
+    } else if (ext === '.gif') {
+        contentType = 'image/gif';
+    }
+
+    const options = {
+        root: path.join(process.cwd(), 'app/uploads'),
+        headers: {
+            'Content-Type': contentType,
+        }
+    };
+
+    res.sendFile(req.params.image, options, (err) => {
+        if (err) {
+            res.status(err.status).end();
+        }
+    });
+});
 
 
 
