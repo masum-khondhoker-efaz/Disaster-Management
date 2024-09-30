@@ -42,7 +42,7 @@ const CrisisSection = () => {
                 {crises.length > 0 ? (
                     crises.map((crisis) => (
                         <div className="crisis-card" key={crisis._id}>
-                            <img src = {`http://localhost:8000/uploads/${crisis.image}`} alt = "Crisis" />
+                            <img src = {`/uploads/${crisis.image}`} alt = "Crisis" />
                             <div className = "crisis-details" >
                                 <strong >{crisis.title}</strong>
                                 <p>Location: {crisis.location}</p>

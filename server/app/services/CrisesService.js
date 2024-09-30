@@ -27,9 +27,19 @@ export const addCrisis = async (req) => {
 export const getAllCrises = async () => {
     try {
         // Fetch crises with status 'approved' and sort by creation date (latest first)
-        let crises = await CrisesModel.find({ status: 'approved' })
-            .sort({ createdAt: -1 })
-            .select('image title location description severity requiredHelp createdAt status');
+        let crises = await CrisesModel.find({ status: 'approved' }, {
+            image: 1,
+            title: 1,
+            location: 1,
+            description: 1,
+            severity: 1,
+            requiredHelp: 1,
+            createdAt: 1,
+            status: 1
+        })
+            .sort({ createdAt: -1 });
+
+
 
         // Format the createdAt date
         crises = crises.map(crisis => ({

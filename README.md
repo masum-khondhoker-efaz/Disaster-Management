@@ -8,7 +8,7 @@ Login: Supports both volunteers and admin users.
 Crisis Reporting: Allows users to report crises which can be approved by admins.
 Crisis List & Filter: Displays a list of approved crises with filters for severity, status, and location.
 Donations Management: Manages donations and expenses for disaster relief.
-Inventory Management: (Optional) Track inventory for donated and purchased relief goods.
+Inventory Management: (Backend only) Track inventory for donated and purchased relief goods.
 Admin Panel: Admins can approve, verify, and assign tasks to volunteers
 
 Installation & Setup
@@ -31,11 +31,13 @@ npm start
 Frontend Setup
 Navigate to the client folder:
 cd ../client
+
 Install dependencies:
 npm install
 
 Start the frontend development server:
 npm run dev
+
 
 Technologies Used
 Backend: Node.js, Express, MongoDB, Mongoose
@@ -43,3 +45,5 @@ Frontend: React, Vite
 Security: Helmet, CORS, JWT Authentication
 API Documentation: Postman
 File Uploads: Multer
+
+

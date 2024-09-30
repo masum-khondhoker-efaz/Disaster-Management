@@ -64,7 +64,7 @@ const CrisisList = () => {
                     {crises.length ? (
                         crises.map((crisis) => (
                             <div className = "crisis-card" key = {crisis._id} >
-                                <img src = {`http://localhost:8000/uploads/${crisis.image}`} alt = "Crisis" />
+                                <img src = {`/app/uploads/${crisis.image}`} alt = "Crisis" />
                                 <h3 >{crisis.title}</h3 >
                                 <p ><strong >Location:</strong > {crisis.location}</p >
                                 <p ><strong >Description:</strong > {crisis.description}</p >
